@@ -1,6 +1,6 @@
 module github.com/sunggun-yu/test-renovate-golang
 
-go 1.21.6
+go 1.21.8
 
 require github.com/spf13/cobra v1.8.0
 
