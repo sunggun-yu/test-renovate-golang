@@ -15,7 +15,8 @@
     {
       "matchManagers": ["github-actions"],
       "stabilityDays": 30,
-      "enabled": true
+      "enabled": true,
+      "extends": ["helpers:pinGitHubActionDigests"]
     }
   ]
 }
