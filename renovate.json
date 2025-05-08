@@ -14,9 +14,16 @@
     },
     {
       "matchManagers": ["github-actions"],
+      "matchPackageNames": ["!actions/**"],
       "stabilityDays": 30,
       "enabled": true,
       "extends": ["helpers:pinGitHubActionDigests"]
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["^actions/**"],
+      "stabilityDays": 30,
+      "enabled": true
     }
   ]
 }
